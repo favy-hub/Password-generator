@@ -5,15 +5,18 @@ let genPassBtn = document.getElementById("genpass-btn")
 let firstPassEl = document.getElementById("password-one")
 let secondPassEl = document.getElementById("password-two")
 
-let passwordLength = 12
+let passwordLength = 15
+
+
 
 genPassBtn.addEventListener("click", function(){
-     
+     firstPassEl.textContent = getRandomPassword()
+     secondPassEl.textContent = getRandomPassword()
 })
 
 function getRandomCharacter(){
     let randomChar = Math.floor(Math.random()*characters.length)
-    return randomChar
+    return characters[randomChar]
 }
 
 function getRandomPassword(){
