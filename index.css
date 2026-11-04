@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+}
+
+.container {
+    background: #0C4A6E;
+    width: 350px;
+    margin: 40px auto;
+    padding: 50px 40px ;
+    color: #34D399;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 900;
+}
+
+span {
+    color: #ffffff;
+}
+
+#genpass-btn {
+    background: #34D399;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    margin: 30px 0 20px 0;
+}
+
+hr {
+    color: #7DD3FC ;
+}
+
+.password-card {
+    display: flex;
+}
+
+#password-one, #password-two {
+    background: #0369A1;
+    padding: 5px 50px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#password-one {
+   margin-right: 30px;
+}
